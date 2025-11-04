@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/static/index.js" defer></script>
+    <title>FastAPI Voice Task Creator</title>
+</html>
+<body>
+    <h1>This app will use OpenAI Whisper to capture voice and create a summary of the transcript</h1>
+    <form id="uploadForm">
+        <input type="file" id="audioFile" name="audiofile" accept="audio/*" required>
+        <button type="submit">Upload Audio</button>
+    </form>
+      <div id="output"></div>
+</body>
